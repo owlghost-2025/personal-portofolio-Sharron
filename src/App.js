@@ -136,8 +136,12 @@ export default function App() {
           <div className="skills" aria-hidden>
             <span className="skill">Tri Ratna School</span>  
             <span className="skill">Sofware Engginer</span>
+            <span className="skill">Game Developer</span>
           </div>
         </section>
+
+        
+
 
         <section className="section" id="projects">
           <h2>About Me!</h2>
@@ -146,6 +150,30 @@ export default function App() {
             {projects.map((p) => (
               <ProjectCard key={p.id} p={p} />
             ))}
+          </div>
+        </section>
+
+        <section className="section" id="skills">
+          <h2>My projects</h2>
+          <div className="kotakkk">
+          <div className="kotak" >
+            <img className="kotak-img" src="https://i.ibb.co.com/Df2F7g8Q/Flappy-bird-became-the-1-app-on-the-App-Store-2013.jpg" alt="Flappy Bird" />
+            <h2> Flappy Bird</h2>
+            <p> ini game yang saya pertama kali coba buat </p>
+            
+
+            </div>
+          <div className="kotak" >
+            <img className="kotak-img" src="https://i.ibb.co.com/SX8FTDrk/Whats-App-Image-2026-01-09-at-19-16-18.jpg" alt="Acting" />
+            <h2>Acting</h2>
+            <p>salah satunya saya pernah main dalam film ini </p>
+
+          </div>
+          <div className="kotak" >
+            <img className="kotak-img" src="https://i.ibb.co.com/0RcYwCC0/download-2.jpg" alt="Reading Book" />
+            <h2>paint</h2>
+            <p>karya melukis saya pertama kali </p>
+          </div>
           </div>
         </section>
 
